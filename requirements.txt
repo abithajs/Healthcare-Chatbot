@@ -6,4 +6,4 @@ streamlit-float
 python-dotenv
 mysql-connector-python==8.2.0
 sqlalchemy==2.0.30
- 
+pymysql
