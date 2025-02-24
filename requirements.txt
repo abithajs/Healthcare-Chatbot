@@ -1,6 +1,7 @@
+python_version==3.12.9
 pandas>=2.1.0
 numpy>=1.26.0
-streamlit>=1.32.0
+Streamlit==1.32.0
 datetime
 streamlit-float
 python-dotenv
