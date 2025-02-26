@@ -146,7 +146,8 @@ with st.popover("", use_container_width=False):
     EMAIL_PASSWORD = load_password_from_file('SMTP_password.env')
 
    # Create SQLAlchemy engine
-    engine = create_engine("mysql+pymysql://root:Abi%407522@localhost:3307/healthcare_chatbot")
+    DATABASE_URL = "mysql+pymysql://root:Abi%407522@localhost:3307/healthcare_chatbot"
+    engine = create_engine(DATABASE_URL)  
 
     # Load data from specialization table
     specialization_query = "SELECT Specialization_ID, Specialization, Department FROM master_table"
